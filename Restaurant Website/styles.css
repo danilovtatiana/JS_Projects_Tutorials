@@ -291,3 +291,21 @@ img{
   border-radius: .5rem;
   justify-self: center;
 }
+
+/* SERVICES */
+
+.services__container {
+  row-gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.services__content {
+  text-align: center;
+}
+
+.service__img {
+  width: 64px;
+  height: 64px;
+  fill: var(--first-color);
+  margin-bottom: var(--mb-2);
+}
